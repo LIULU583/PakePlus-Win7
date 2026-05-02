@@ -31,8 +31,8 @@ const updateConfig = async (windows, desktop) => {
     console.log('config.json updated', configJson)
 }
 
-// update index.html
-const updateIndexHtml = (
+// update pppwd.html
+const updatePPPwdHtml = (
     startMethod,
     startPwd,
     pwdTitle,
@@ -227,8 +227,8 @@ const main = async () => {
     console.log('version:', version)
     console.log('id:', id)
     console.log('url:', webUrl)
-    // update index.html
-    updateIndexHtml(
+    // update pppwd.html
+    updatePPPwdHtml(
         startMethod,
         startPwd,
         pwdTitle,
